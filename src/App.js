@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import Homepage from "./components/Homepage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AllBlogs from "./components/AllBlogs";
+import AboutUs from "./components/AboutUs";
+import Teams from "./components/Teams";
 
 function App() {
+  const subscriber = 1000;
+  const blogTitle = "Best Games of 2023";
+  const blogLikes = 100;
+  const blogLink = "https://letsupgrade.in/programs";
+  const blogLink2 = "https://letsupgrade.in/programs;";
+
+  const author = { nameAuthor: "Sumit", age: 23, blogWritten: 20 };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/home" element={<Homepage />} />
+          <Route path="/allblogs" element={<AllBlogs />} />
+          <Route exact path="/aboutus" element={<AboutUs />} />
+          <Route exact path="/teams" element={<Teams />} />
+        </Routes>
+
+        <div className="content"></div>
+      </div>
+    </BrowserRouter>
   );
 }
 
