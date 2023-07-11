@@ -1,0 +1,60 @@
+{
+  "blogs": [
+    {
+      "title": "Dark Sector",
+      "preview": "This is blog preview content",
+      "body": "lorem Ipsum",
+      "author": "Sumit",
+      "id": "1"
+    },
+    {
+      "title": "Assasin 1 creed",
+      "preview": "This is blog preview content",
+      "body": "lorem Ipsum",
+      "author": "Avinash",
+      "id": "2"
+    },
+    {
+      "title": "Alien Worlds",
+      "preview": "This is blog preview content",
+      "body": "lorem Ipsum",
+      "author": "Surya",
+      "id": "3"
+    },
+    {
+      "title": "Atomic Brawl",
+      "preview": "This is blog preview content",
+      "body": "lorem Ipsum",
+      "author": "Nehal",
+      "id": "4"
+    },
+    {
+      "title": "Assasin 2 creed",
+      "preview": "This is blog preview content",
+      "body": "lorem Ipsum",
+      "author": "Avinash",
+      "id": "5"
+    },
+    {
+      "title": "Atomic Brawl",
+      "preview": "This is blog preview content",
+      "body": "lorem Ipsum",
+      "author": "Nehal",
+      "id": "6"
+    },
+    {
+      "title": "Atomic Brawl",
+      "preview": "This is blog preview content",
+      "body": "lorem Ipsum",
+      "author": "Nehal",
+      "id": "7"
+    },
+    {
+      "title": "Assasin 3 creed",
+      "preview": "This is blog preview content",
+      "body": "lorem Ipsum",
+      "author": "Avinash",
+      "id": "8"
+    }
+  ]
+}
